@@ -54,6 +54,8 @@ COW容器操作是没有锁的，提高了并发性能，只是做了额外的�
 
 ### SynchronousQueue 同步队列
 只能先取在存
+
+### PriorityQueue 优先级队列
 ### PriorityBlockingQueue 优先级阻塞队列
 不是在put元素的时候排序，而是在取出元素的时候才排序
 
@@ -67,6 +69,9 @@ Deque是个接口，LinkedList 是其实现类，所以LinkedList是个双端队
 
 
 
+
+# 异常
+Throwable
 
 
 
