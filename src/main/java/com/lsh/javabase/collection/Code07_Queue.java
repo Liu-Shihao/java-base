@@ -17,7 +17,6 @@ import java.util.concurrent.*;
  *      出队：当队列没有数据时，取出元素为null
  *  ArrayBlockingQueue ：底层是数组实现，有边界队列，不支持读写同时操作（入队和出队操作使用的是同一把锁）
  *  LinkedBlockingQueue：底层是链表实现,无边界队列，支持读写同时操作，并发情况下，效率高（入队和出队使用了两把不同的锁）
- *
  *  SynchronousQueue：同步队列
  *
  *

@@ -2,6 +2,7 @@ package com.lsh.javabase.collection;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentSkipListMap;
 
 /**
  * @author ：LiuShihao
@@ -25,6 +26,7 @@ public class Code03_Map {
         hashMap.put("通话",hash("通话"));
 
         ConcurrentHashMap<Object, Object> objectObjectConcurrentHashMap = new ConcurrentHashMap<>();
+        ConcurrentSkipListMap<Object, Object> concurrentSkipListMap = new ConcurrentSkipListMap<>();
 
         System.out.println(hashMap);
         Hashtable<String, Object> hashtable = new Hashtable<>();
